@@ -6,7 +6,7 @@ CREATE TABLE `toys` (
     `name` varchar(50) NOT NULL,
     `description` varchar(50) NOT NULL,
     `price` double NOT NULL,
-    `category` int(10) NOT NULL
+    `category` int(10) 
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `toys` (`name`, `description`, `price`,`category`) VALUES
